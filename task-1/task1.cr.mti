@@ -1,0 +1,99 @@
+C:/Users/User/Desktop/Niha/task-1/pc_counter.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/pc_counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pc_counter
+
+Top level modules:
+	pc_counter
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/Data_Memory.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/Data_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/instruction.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/instruction.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instruction
+
+Top level modules:
+	instruction
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/instruction_memory.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/instruction_memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/alu_64.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/alu_64.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu_64
+
+Top level modules:
+	alu_64
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/registerFile.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/registerFile.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module registerFile
+
+Top level modules:
+	registerFile
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/adder.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/ALU_Control.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/ALU_Control.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Control
+
+Top level modules:
+	ALU_Control
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/mux1.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/mux1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux1
+
+Top level modules:
+	mux1
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/RISC_V_Processor.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/RISC_V_Processor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RISC_V_Processor
+
+Top level modules:
+	RISC_V_Processor
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/dataExtract.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/dataExtract.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dataExtract
+
+Top level modules:
+	dataExtract
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/ImmGen.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/ImmGen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ImmGen
+
+Top level modules:
+	ImmGen
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/instruction_parser.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/instruction_parser.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instruction_parser
+
+Top level modules:
+	instruction_parser
+
+} {} {}} C:/Users/User/Desktop/Niha/task-1/Control_Unit.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Niha/task-1/Control_Unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}}

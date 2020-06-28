@@ -1,19 +1,26 @@
-module tb();
-  
-reg clk,reset;
+module tb(
+    
+);
 
-RISC_V_Processor risc(.clk(clk),.reset(reset));
+reg clk, reset;
+
+RISC_V_Processor r(
+    .clk(clk),
+    .reset(reset)
+
+);
 
 initial
 begin
-  
-  clk = 1'd0;
-  reset = 1'd1;
-  #10
-  reset = 1'd0;
-  
+clk = 1'b1;
+reset = 1'b1;
+#8
+reset = 1'b0;
 end
 
-always #5 clk =~clk;
+always
+begin
+#5 clk = ~clk;
+end
 
-endmodule  
+endmodule // tb

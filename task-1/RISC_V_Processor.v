@@ -149,7 +149,7 @@ assign functx = {Instruction[30] ,Instruction[14:12]};
 	.a(Result),
 	.b(Read_Data),
 	.sel(MemtoReg),
-	.data_out(data_out2)
+	.data_out(data_out2) // reg file 
 	);
 
 	pc_counter pc(
