@@ -9,10 +9,7 @@ begin
     case(ALUOp)
         2'b00:
             begin
-				case(Funct)
-				4'b0000: Operation = 4'b0110; //beq
-				4'b0101: Operation = 4'b0110; //bge
-				endcase
+		Operation = 4'b0010; // addi
             end
         2'b01:
             begin
