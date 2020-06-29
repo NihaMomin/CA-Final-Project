@@ -1,0 +1,44 @@
+# x13 = i = 0
+# x14 = j = 0
+# x15 = temp
+# x10 = a = 0 or also the base address if not null 0x200 User Input
+# x11 = len = User Input
+# x20 = offsetted address i
+# x21 = offsetted address j
+# x22 = a[i]
+# x23 = a[j]
+addi x25, x0, 3
+addi x26, x0, 1
+addi x27, x0, 5
+addi x28, x0, 2
+addi x13, x0, 0 # i = 0
+addi x14, x0, 0 # j = 0
+addi x10, x0, 0x200 # a = User Input
+
+sw x25, 0(x10)
+sw x26, 4(x10)
+sw x27, 8(x10)
+sw x28, 12(x10)
+addi x11, x0, 4 # len = User Input
+		Loop:
+            beq x13, x11, Exit # if i >= len, Exit
+            add x14, x0, x13 # j = i
+            add x21, x0, x20
+			Loop2:
+                beq x14, x11, Loop2Exit # if j >= len, Loop2Exit
+                add x24, x20, x10 # x20 now has address of a[i]
+                add x25, x21, x10 # x20 now has address of a[j]
+                lw x22, 0(x24) # x22 = a[i]
+                lw x23, 0(x25) # x21 = a[j]
+                addi x21, x21, 4
+                addi x14, x14, 1 # j += 1
+                bge x23, x22, Loop2 # if a[j] >= a[i], Loop2
+                add x15, x0, x22 # temp = a[i]
+                sw x23, 0(x24) # a[i] = a[j]
+                sw x15, 0(x25) # a[j] = temp
+                beq x0, x0, Loop2 # loop repeat
+			Loop2Exit:
+            	addi x20, x20, 4
+                addi x13, x13, 1 # i += 1
+                beq x0, x0, Loop # loop repeat
+Exit:
